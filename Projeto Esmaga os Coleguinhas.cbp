@@ -25,10 +25,11 @@
 					<Add option="-ansi" />
 					<Add directory="Códigos/Bibliotecas/PIGv0.5.1/include/SDL_image" />
 					<Add directory="Códigos/Bibliotecas/PIGv0.5.1/include/SDL" />
-					<Add directory="include" />
+					<Add directory="Códigos/Bibliotecas/PIGv0.5.1/include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
+					<Add option="-lmingw32 -lSDL2main -lSDL2   -lSDL2_image -lSDL2_ttf" />
 					<Add directory="Códigos/Bibliotecas/PIGv0.5.1/bin" />
 					<Add directory="Códigos/Bibliotecas/PIGv0.5.1/lib" />
 				</Linker>
@@ -38,6 +39,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Códigos/Classes/cenario.cpp" />
+		<Unit filename="Códigos/Classes/personagem.cpp" />
 		<Unit filename="Códigos/iniciar.cpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
