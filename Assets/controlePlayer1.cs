@@ -45,8 +45,8 @@ public class controlePlayer1 : MonoBehaviour {
 
         if(jump)
         {
-            
-            rb.AddForce(new Vector2(0, jumpforce));
+            if(noChao)
+                rb.AddForce(new Vector2(0, jumpforce));
             
             jump = false;
         }

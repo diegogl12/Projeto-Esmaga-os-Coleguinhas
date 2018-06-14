@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class ControladorCamer : MonoBehaviour {
 
-    public GameObject Megaman;
+    public GameObject player;
 
     private Vector3 offset;
 
 	// Use this for initialization
 	void Start () {
-        offset = transform.position - Megaman.transform.position;
+        offset = transform.position - player.transform.position;
 
 	}
 	
 	// Update is called once per frame
 	void LateUpdate() {
-        transform.position = Megaman.transform.position + offset;
+        transform.position = player.transform.position + offset;
     }
 }
