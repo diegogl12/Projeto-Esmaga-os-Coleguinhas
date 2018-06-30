@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Characters/Alucard.controller.meta
 guid: 8e2d885581405d740bc264d874443e27
+=======
+guid: 99825f43a902e3d49bc9d06da727aa5a
+>>>>>>> d1d4b7031abd86012d5cb38c17e0d23db087c245:Assets/Characters/Alucard.controller.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 9100000
