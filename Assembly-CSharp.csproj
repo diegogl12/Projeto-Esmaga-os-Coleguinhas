@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8C69B929-ED4D-C814-72B9-C2678F6F6B59}</ProjectGuid>
+    <ProjectGuid>{7D931A7A-95CA-8130-8B19-B01F2F5695F7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -54,10 +54,10 @@
      <Compile Include="Assets\ControladorCamer.cs" />
      <Compile Include="Assets\controlePlayer1.cs" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>C:/Users/Diego/Desktop/Projeto-Esmaga-os-Coleguinhas-b9c03c83e4038e7fa74a16a938ce7c291bfe037c/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/Diego/Documents/Códigos/C++/Projeto Esmaga os Coleguinhas/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/Diego/Desktop/Projeto-Esmaga-os-Coleguinhas-b9c03c83e4038e7fa74a16a938ce7c291bfe037c/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/Diego/Documents/Códigos/C++/Projeto Esmaga os Coleguinhas/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
