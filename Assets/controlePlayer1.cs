@@ -6,7 +6,6 @@ public class controlePlayer1 : MonoBehaviour {
 
     public float speed;
     public float jumpforce;
-
     private Rigidbody2D rb;
     private bool faceright = true;
     private bool jump = false;
