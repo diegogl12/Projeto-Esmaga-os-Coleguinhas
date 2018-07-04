@@ -21,10 +21,10 @@ GameObject:
   - component: {fileID: 4954579014265196}
   - component: {fileID: 212693697556718180}
   - component: {fileID: 50995306845114574}
-  - component: {fileID: 61461985053473884}
+  - component: {fileID: 58707669003619592}
   m_Layer: 0
   m_Name: alucard_186
-  m_TagString: Untagged
+  m_TagString: tiro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53,7 +53,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 15
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -61,9 +61,9 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
---- !u!61 &61461985053473884
-BoxCollider2D:
+  m_Constraints: 6
+--- !u!58 &58707669003619592
+CircleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -71,22 +71,12 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.34, y: 0.14}
-    newSize: {x: 0.34, y: 0.14}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.34, y: 0.14}
-  m_EdgeRadius: 0
+  m_Radius: 0.17
 --- !u!212 &212693697556718180
 SpriteRenderer:
   m_ObjectHideFlags: 1

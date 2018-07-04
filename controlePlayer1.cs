@@ -61,4 +61,12 @@ public class controlePlayer1 : MonoBehaviour {
         transform.localScale = theScale;
 
     }
+
+    void OnColisionEnter2D(Collider2D collide)
+    {
+        if(collide.tag == "tiro")
+        {
+            Destroy(collide);
+        }
+    }
 }
