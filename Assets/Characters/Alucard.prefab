@@ -21,14 +21,29 @@ GameObject:
   - component: {fileID: 4198481910411868}
   - component: {fileID: 212152818944586632}
   - component: {fileID: 95591291428785682}
-  - component: {fileID: 114648645469943374}
   - component: {fileID: 50839820023579654}
   - component: {fileID: 58794004352023522}
   - component: {fileID: 61242646195279890}
+  - component: {fileID: 114437706996655186}
   m_Layer: 0
   m_Name: Alucard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1956930378112822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4908346395395066}
+  m_Layer: 0
+  m_Name: spawnbullet
+  m_TagString: Untagged
+  m_Icon: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -54,12 +69,26 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1737703461019886}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.683, y: -0.201, z: 0}
+  m_LocalPosition: {x: 0.678, y: -0.239, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_Children:
   - {fileID: 4910431635796646}
+  - {fileID: 4908346395395066}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4908346395395066
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1956930378112822}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.09, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 23, z: 0.4}
+  m_Children: []
+  m_Father: {fileID: 4198481910411868}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4910431635796646
 Transform:
@@ -152,7 +181,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114648645469943374
+--- !u!114 &114437706996655186
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -160,11 +189,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1737703461019886}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1d2eaefdc407e24f93e9f757d046dc5, type: 3}
+  m_Script: {fileID: 11500000, guid: e9e66caf5bb9c6241858e58b5a1b9ce0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
   jumpforce: 350
+  tiro: {fileID: 1327977722937042, guid: e2b57b6e268c3454fa6018b01619885b, type: 2}
+  tiroSpawn: {fileID: 4908346395395066}
 --- !u!212 &212152818944586632
 SpriteRenderer:
   m_ObjectHideFlags: 1

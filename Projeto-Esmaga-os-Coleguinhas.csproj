@@ -300,7 +300,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\bulletscrip.cs" />
     <Compile Include="Assets\ControladorCamer.cs" />
+    <Compile Include="Assets\controleAlucard.cs" />
+    <Compile Include="Assets\controleMegaman.cs" />
     <Compile Include="Assets\controlePlayer1.cs" />
   </ItemGroup>
   <ItemGroup>

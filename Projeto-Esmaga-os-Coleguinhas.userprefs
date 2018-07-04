@@ -1,8 +1,10 @@
 ﻿<Properties StartupItem="Projeto-Esmaga-os-Coleguinhas.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\controlePlayer1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\bulletscrip.cs">
     <Files>
       <File FileName="Assets\controlePlayer1.cs" Line="19" Column="52" />
+      <File FileName="Assets\bulletscrip.cs" Line="100" Column="24" />
+      <File FileName="..\..\..\..\Downloads\Assets\scripts\TrataDefesaGoleiro.cs" Line="28" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
