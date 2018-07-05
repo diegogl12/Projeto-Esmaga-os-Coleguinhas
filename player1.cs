@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class bulletscrip : MonoBehaviour {
+public class player1 : MonoBehaviour {
 	public float speed;
 	public float jumpforce;
 	public GameObject tiro;
@@ -29,7 +29,7 @@ public class bulletscrip : MonoBehaviour {
 	{
 		noChao = Physics2D.Linecast(transform.position, groundcheck.position, 1 << LayerMask.NameToLayer("Ground"));
 
-		if (Input.GetButtonDown("Jump") && noChao)
+		if (Input.GetKeyDown(KeyCode.UpArrow) && noChao)
 		{
 			jump = true;
 			anim.SetTrigger("Pulou");
@@ -40,10 +40,16 @@ public class bulletscrip : MonoBehaviour {
 
 	void FixedUpdate()
 	{
-		float h = Input.GetAxisRaw("Horizontal");
-		anim.SetFloat("Velocidade", Mathf.Abs(h));
+        float h = 0;
 
-		rb.velocity = new Vector2(h * speed, rb.velocity.y);
+        if (Input.GetKey(KeyCode.RightArrow))
+            h = 1.0f;
+        else if (Input.GetKey(KeyCode.LeftArrow))
+            h = -1.0f;
+
+        anim.SetFloat("Velocidade", Mathf.Abs(h));
+
+        rb.velocity = new Vector2(h * speed, rb.velocity.y);
 
 		if (h > 0 && !faceright)
 			Flip();
@@ -58,7 +64,7 @@ public class bulletscrip : MonoBehaviour {
 			jump = false;
 		}
 
-		if (Input.GetKeyDown(KeyCode.R))
+		if (Input.GetKeyDown(KeyCode.P))
 			Fire();
 
 	}
@@ -89,8 +95,7 @@ public class bulletscrip : MonoBehaviour {
 			shoot.GetComponent<Rigidbody2D>().velocity = Vector2.right * 6;
 		else
 			shoot.GetComponent<Rigidbody2D>().velocity = Vector2.left * 6;
-
-	
-		Destroy(shoot, 2.0f);
+        
+        Destroy(shoot, 2.0f);
 	}
 }

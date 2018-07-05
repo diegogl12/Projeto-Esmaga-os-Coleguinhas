@@ -22,7 +22,11 @@ GameObject:
   - component: {fileID: 212693697556718180}
   - component: {fileID: 50995306845114574}
   - component: {fileID: 58707669003619592}
+<<<<<<< HEAD
   - component: {fileID: 114908173205760210}
+=======
+  - component: {fileID: 114555317172024824}
+>>>>>>> 13fd0335184d87b8b70ff3cbf059391078150aa3
   m_Layer: 0
   m_Name: alucard_186
   m_TagString: Untagged
@@ -54,7 +58,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 15
+  m_Mass: 50
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -77,8 +81,13 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
+<<<<<<< HEAD
   m_Radius: 0.125
 --- !u!114 &114908173205760210
+=======
+  m_Radius: 0.17
+--- !u!114 &114555317172024824
+>>>>>>> 13fd0335184d87b8b70ff3cbf059391078150aa3
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -86,7 +95,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1327977722937042}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: c24230a01cf5e5d4d95e4f3e76fb31d2, type: 3}
+=======
+  m_Script: {fileID: 11500000, guid: b361d22a09a8221498d2e7ae820010dd, type: 3}
+>>>>>>> 13fd0335184d87b8b70ff3cbf059391078150aa3
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &212693697556718180

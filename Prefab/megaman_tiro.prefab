@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 50854801362941186}
   - component: {fileID: 58854245483564800}
   - component: {fileID: 114500288762490698}
+  - component: {fileID: 114275583205077066}
   m_Layer: 0
   m_Name: megaman_tiro
   m_TagString: tiro
@@ -55,7 +56,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 15
+  m_Mass: 50
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -97,6 +98,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114275583205077066
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1902216880071990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b361d22a09a8221498d2e7ae820010dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114500288762490698
 MonoBehaviour:
   m_ObjectHideFlags: 1
