@@ -93,12 +93,4 @@ public class bulletscrip : MonoBehaviour {
 	
 		Destroy(shoot, 2.0f);
 	}
-
-    void OnCollisionEnter2D(Collider2D collide)
-    {
-        if (collide.tag == "mega")
-        {
-            Destroy(collide);
-        }
-    }
 }

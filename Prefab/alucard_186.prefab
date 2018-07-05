@@ -22,9 +22,10 @@ GameObject:
   - component: {fileID: 212693697556718180}
   - component: {fileID: 50995306845114574}
   - component: {fileID: 58707669003619592}
+  - component: {fileID: 114908173205760210}
   m_Layer: 0
   m_Name: alucard_186
-  m_TagString: tiro
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76,7 +77,18 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.17
+  m_Radius: 0.125
+--- !u!114 &114908173205760210
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1327977722937042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c24230a01cf5e5d4d95e4f3e76fb31d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212693697556718180
 SpriteRenderer:
   m_ObjectHideFlags: 1
